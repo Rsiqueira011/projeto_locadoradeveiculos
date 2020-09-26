@@ -178,3 +178,6 @@ DELETE /locacao/:code HTTP/1.1
 Accept: application/json
 Content-Type: application/json
 ```
+## CONEXÃO COM O BANCO DE DADOS
+*Command Terminal: yarn sequelize db:migrate
+````

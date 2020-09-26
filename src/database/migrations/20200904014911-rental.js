@@ -13,6 +13,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      client_cpf: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       init_date: {
         type: Sequelize.DATE,
         allowNull: false,
@@ -23,6 +27,10 @@ module.exports = {
       },
       total_price: {
         type: Sequelize.FLOAT,
+        allowNull: false,
+      },
+      license_plate: {
+        type: Sequelize.STRING,
         allowNull: false,
       },
       rental_status: {
